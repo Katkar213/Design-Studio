@@ -601,9 +601,9 @@ hr {
     /* transition: 0.5s ease; */
 }
 
-/* .swiper-slide:hover {
+.swiper-slide:hover {
     background: linear-gradient(287deg, rgba(0, 62, 156, 0.50) 0%, rgba(147, 61, 254, 0.60) 99.99%, rgba(148, 61, 255, 0.50) 100%);
-} */
+}
 
 .swiper-slide:hover .team-des-right h4 {
     transform: translate(-14rem, 3rem);
@@ -2260,8 +2260,18 @@ body {
 
 
 @media Screen and (min-width:280px) and (max-width:500px) {
-
-
+h2{
+    margin-bottom: 0px !important;
+}
+.second-parent{
+    height:13.1rem;
+}
+    .our-vision-image{
+        display:none;
+    }
+    .background{
+        display: none;
+    }
     /* hero session */
     .navbar {
         display: none;
@@ -2327,6 +2337,7 @@ body {
 
     .why-us-right {
         width: auto;
+        /* display: none; */
     }
 
 
@@ -2376,7 +2387,7 @@ body {
         align-items: center;
         gap: 1.25rem;
         align-self: stretch;
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
     }
 
     .background {
@@ -2881,6 +2892,10 @@ body {
         height: auto !important;
         /* padding:1.25rem 1rem !important; */
     }
+    .hero-session-1 h2{
+        padding:0px 0px !important;
+        margin-bottom: 0px !important;
+    }
 }
 
 
@@ -2956,9 +2971,6 @@ body {
         line-height: normal;
     }
 
-    .parent2 {
-        padding: 2.5rem 2rem !important;
-    }
 
     .why-us-right img {
         width: 12.5rem;
@@ -2969,7 +2981,7 @@ body {
     .why-us-right {
         height: auto;
         max-width: 12.5rem !important;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .background {
@@ -2981,6 +2993,9 @@ body {
 
     .why-us-parent {
         gap: 4.06rem;
+    }
+    .meet-the-team-heading h1{
+        text-align: left !important;
     }
 
     .experties-heading h2 {
@@ -3007,10 +3022,15 @@ body {
     }
     .why-us-heading{
         margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0rem !important;
     }
+   
     .parent{
         padding:0 2rem !important;
+    }
+    
+    .parent2 {
+        padding: 2.5rem 2rem !important;
     }
     .experties-heading h2{
         font-size: 1.962rem !important;
@@ -3181,6 +3201,7 @@ width:auto !important;
     gap:1.25rem !important;
 }
 .tab-footer{
+    gap:3.78rem;
     display:flex;
     flex-direction: column;
 }
